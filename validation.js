@@ -24,7 +24,7 @@ function validate(field, regex){
 // attach keyup events to inputs
 inputs.forEach((input) => {
     input.addEventListener('keyup', (e) => {
-            // console.log(patterns[e.target.attributes.name.value]);
-            validate(e.target, patterns[e.target.attributes.name.value]);
+            // console.log(patterns[e.target.attributes.id.value]);
+            validate(e.target, patterns[e.target.attributes.id.value]);
     });
 });
