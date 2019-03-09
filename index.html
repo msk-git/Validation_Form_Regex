@@ -14,86 +14,73 @@
     <link rel="stylesheet" href="styles.css">
 </head>
     <body>
-        <div class="container">
-                <h1>New User Signup</h1>
-                  <div class="row">
-                    <form class="col s6 offset-s6">
-                      <div class="row">
-                        <div class="input-field">
-                          <i class="far fa-user prefix fa-3x"></i>
-                          <input id="username" type="text" class="validate">
-                          <label for="username">Username</label>
-                          <span class="helper-text" data-error="Username must be  and contain 5 - 12 characters" data-success="Thank you">Please enter your username</span>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="row">
-                    <form class="col s6 offset-s6">
-                      <div class="row">
-                        <div class="input-field">
-                          <i class="far fa-envelope prefix fa-3x"></i>
-                          <input id="email" type="email" class="validate">
-                          <label for="email">Email</label>
-                          <span class="helper-text" data-error="Email must be a valid address, e.g. me@mydomain.com" data-success="Thank you">Please enter your email</span>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="row">
-                    <form class="col s6 offset-s6">
-                      <div class="row">
-                        <div class="input-field">
-                          <i class="fas fa-unlock-alt prefix fa-3x"></i>
-                          <input id="password" type="password" class="validate">
-                          <label for="password">Password</label>
-                          <span class="helper-text" data-error="Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters" data-success="Thank you">Please enter your password</span>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="row">
-                    <form class="col s6 offset-s6">
-                      <div class="row">
-                        <div class="input-field">
-                          <i class="fas fa-phone prefix fa-3x"></i>
-                          <input id="telephone" type="text" class="validate">
-                          <label for="telephone">Telephone</label>
-                          <span class="helper-text" data-error="Telephone must be a valid number, as example:[+xx xxx xxx xx xx] (12 digits)" data-success="Thank you">Please enter your telephone</span>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="row">
-                    <form class="col s6 offset-s6">
-                      <div class="row">
-                        <div class="input-field">
-                          <i class="fas fa-share-alt prefix fa-3x"></i>
-                          <input id="slug" type="text" class="validate">
-                          <label for="slug">Slug</label>
-                          <span class="helper-text" data-error="Slug must contain only lowercase letters, numbers and hyphens and be 8 - 20 characters" data-success="Thank you">Please enter your slug name</span>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="row">
-                    <form action="#" class="col s6 offset-s6 center">
-                        <p>
-                          <label>
-                            <input type="checkbox" />
-                            <span>I agree to the processing of personal data</span>
-                          </label>
-                        </p>
-                    </form>
-                  </div>
+      <div class="container">
+        <h1>New User Signup</h1>
+          <form id="signup" class="row">
+            <div class="col s12 m8 offset-m4 l6 offset-l6 center">    
               <div class="row">
-                <form class="col s6 offset-s6 center">
-                    <button class="btn waves-effect waves-light center" type="submit" name="action">Register
-                            <i class="material-icons right">send</i>
-                        </button>
-                </form>
-              </div> 
-        </div>
+                <div class="input-field">
+                  <i class="far fa-user prefix fa-3x"></i>
+                  <input id="username" type="text" class="validate">
+                  <label for="username">Username</label>
+                  <span class="helper-text" data-error="Username must be  and contain 5 - 12 characters" data-success="Thank you">Please enter your username</span>
+                </div>
+              </div>
+          
+              <div class="row">
+                <div class="input-field">
+                  <i class="far fa-envelope prefix fa-3x"></i>
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                  <span class="helper-text" data-error="Email must be a valid address, e.g. me@mydomain.com" data-success="Thank you">Please enter your email</span>
+                </div>
+              </div>
+            
+              <div class="row">
+                <div class="input-field">
+                  <i class="fas fa-unlock-alt prefix fa-3x"></i>
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                  <span class="helper-text" data-error="Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters" data-success="Thank you">Please enter your password</span>
+                </div>
+              </div>
+            
+              <div class="row">
+                <div class="input-field">
+                  <i class="fas fa-phone prefix fa-3x"></i>
+                  <input id="telephone" type="text" class="validate">
+                  <label for="telephone">Telephone</label>
+                  <span class="helper-text" data-error="Telephone must be a valid number, as example:[+xx xxx xxx xx xx] (12 digits)" data-success="Thank you">Please enter your telephone</span>
+                </div>
+              </div>
+          
+              <div class="row">
+                <div class="input-field">
+                  <i class="fas fa-share-alt prefix fa-3x"></i>
+                  <input id="slug" type="text" class="validate">
+                  <label for="slug">Slug</label>
+                  <span class="helper-text" data-error="Slug must contain only lowercase letters, numbers and hyphens and be 8 - 20 characters" data-success="Thank you">Please enter your slug name</span>
+                </div>
+              </div>
+
+              <div class="row">
+                <p>
+                  <label>
+                    <input type="checkbox"/>
+                    <span>I agree to the processing of personal data</span>
+                  </label>
+                </p>
+                </div>
+
+              <div class="row">
+                  <button class="btn-large waves-effect waves-light center" type="submit" name="action">Register
+                          <i class="material-icons right">send</i>
+                      </button>
+                </div> 
+              </div>
+            </form>
+               
+      </div>
         
          <!-- Compiled and minified JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

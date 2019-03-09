@@ -2,22 +2,34 @@ body{
     font-family: PT Serif;
     color: #4db6ac;
     background-image: url("img/pointer_background.jpg");
-    min-height: 300px;
+    min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 h1{
+    font-size: 3rem;
     font-weight: normal;
-    margin: 10px auto;
+    margin: 0.5rem auto;
     text-align: center;
 }
 /* label color */
 .input-field label {
-    color: #fb8c00;
+    color: #01579b;
 }
 /* helper text */
 .input-field span[class="helper-text"] {
-    color: #fb8c00;
+    color: #ff6f00 ;
+}
+/* icons color */
+i {
+    color: #616161;
+}
+i[class="material-icons right"] {
+    color: #ffffff;
+}
+/* checkbox color */
+label :checked + span{
+    color: #00897b;
 }
