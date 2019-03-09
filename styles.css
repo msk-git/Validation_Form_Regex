@@ -1,4 +1,4 @@
-body{
+body {
     font-family: PT Serif;
     color: #4db6ac;
     background-image: url("img/pointer_background.jpg");
@@ -8,7 +8,7 @@ body{
     background-size: cover;
     position: relative;
 }
-h1{
+h1 {
     font-size: 3rem;
     font-weight: normal;
     margin: 0.5rem auto;
@@ -30,6 +30,6 @@ i[class="material-icons right"] {
     color: #ffffff;
 }
 /* checkbox color */
-label :checked + span{
+label :checked + span {
     color: #00897b;
 }
