@@ -28,19 +28,3 @@ inputs.forEach((input) => {
             validate(e.target, patterns[e.target.attributes.id.value]);
     });
 });
-
-// checkbox enabling submit button
-
-var checkbox = document.getElementById('checkbox');
-var regbutton = document.getElementById('regbutton');
-enableSubmit = function(e) {
-  regbutton.disabled = !this.checked
-};
-checkbox.checked = false;
-checkbox.addEventListener('change', enableSubmit);
-
-// submitting form
-document.querySelector('#signup').addEventListener('submit', (e) => {
-  e.preventDefault();
-  
-});

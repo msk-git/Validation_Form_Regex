@@ -21,27 +21,27 @@
               <div class="row">
                 <div class="input-field">
                   <i class="far fa-user prefix fa-3x"></i>
-                  <input id="username" type="text" class="validate">
+                  <input id="username" type="text" class="validate" required>
                   <label for="username">Username</label>
-                  <span class="helper-text" data-error="Username must be  and contain 5 - 12 characters" data-success="Thank you">Please enter your username</span>
+                  <span class="helper-text" data-error="Username must be  and contain 5 - 12 characters" data-success="Thank you">Please enter your username (*required)</span>
                 </div>
               </div>
           
               <div class="row">
                 <div class="input-field">
                   <i class="far fa-envelope prefix fa-3x"></i>
-                  <input id="email" type="email" class="validate">
+                  <input id="email" type="email" class="validate" required>
                   <label for="email">Email</label>
-                  <span class="helper-text" data-error="Email must be a valid address, e.g. me@mydomain.com" data-success="Thank you">Please enter your email</span>
+                  <span class="helper-text" data-error="Email must be a valid address, e.g. me@mydomain.com" data-success="Thank you">Please enter your email (*required)</span>
                 </div>
               </div>
             
               <div class="row">
                 <div class="input-field">
                   <i class="fas fa-unlock-alt prefix fa-3x"></i>
-                  <input id="password" type="password" class="validate">
+                  <input id="password" type="password" class="validate" required>
                   <label for="password">Password</label>
-                  <span class="helper-text" data-error="Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters" data-success="Thank you">Please enter your password</span>
+                  <span class="helper-text" data-error="Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters" data-success="Thank you">Please enter your password (*required)</span>
                 </div>
               </div>
             
@@ -66,8 +66,8 @@
               <div class="row">
                 <p>
                   <label>
-                    <input id="checkbox" type="checkbox"/>
-                    <span>I agree to the processing of personal data</span>
+                    <input id="checkbox" type="checkbox" required/>
+                    <span>I agree to the processing of personal data (*required)</span>
                   </label>
                 </p>
                 </div>
