@@ -1,0 +1,23 @@
+{
+  "name": "Validation_Form_Regex",
+  "version": "1.0.0",
+  "description": "Fancy validation form which using required fields and validation by RegEx rules. Materialize style for modern view.",
+  "main": "validation.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msk-git/Validation_Form_Regex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msk-git/Validation_Form_Regex/issues"
+  },
+  "homepage": "https://github.com/msk-git/Validation_Form_Regex#readme",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
