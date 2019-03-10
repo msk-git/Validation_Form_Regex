@@ -4,7 +4,7 @@
   "description": "Fancy validation form which using required fields and validation by RegEx rules. Materialize style for modern view.",
   "main": "validation.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d Validation_Form_Regex"
   },
   "repository": {
     "type": "git",
